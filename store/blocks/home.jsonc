@@ -10,7 +10,8 @@
     "props": {
       "text": "**Hello, World**!",
       "textPosition": "RIGHT"
-    },
+    }
+  },
     "info-card#button-right": {
       "props":{
         "isFullModeStyle": false,
@@ -37,4 +38,5 @@
         "textAlignment": "center"
       }
     }
+  
 }
