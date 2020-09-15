@@ -61,5 +61,15 @@
       "isOneClickBuy": true,
       "showTooltipOnSkuNotSelected": false
     }
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
   }
 }
