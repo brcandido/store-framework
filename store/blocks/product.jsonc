@@ -73,6 +73,7 @@
       "hideImpossibleCombinations": false,
       "initialSelection": "empty",
       "showValueForVariation": "image",
+      "displayMode": "select",
       "showVariationsErrorMesssage": true
     }
   },
