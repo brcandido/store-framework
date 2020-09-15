@@ -57,7 +57,7 @@
     },
     "flex-layout.col": {
       "children":[
-        "image#eletronics",
+        "image#electronics",
         "image#major-appliance"
       ]
     },
