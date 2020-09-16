@@ -10,7 +10,7 @@
         "orientation": "horizontal"
       }
   },
-  "vtex.menu@2.x:submenu#major":{
+  "menu-item#major-appliances":{
     "children":[
       "vtex.menu@2.1:menu#major"
     ]
@@ -25,7 +25,7 @@
           "orientation":"vertical"
       }
   },
-  "vtex.menu@2.x:submenu#small":{
+  "menu-item#small-appliances":{
     "children":[
       "vtex.menu@2.1:menu#small"
     ]
@@ -40,7 +40,7 @@
         "orientation":"vertical"
     }
   },
-  "vtex.menu@2.x:submenu#electronics":{
+  "menu-item#electronics":{
       "children":[
         "vtex.menu@2.1:menu#electronics"
       ]
