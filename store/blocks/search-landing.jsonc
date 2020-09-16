@@ -1,11 +1,11 @@
 {
     "store.custom#landing":{
         "blocks":[
-            "image#landingbanner",
+            "image",
             "search-result-layout.customQuery"
         ]
     },
-    "image#landingbanner":{
+    "image":{
         "props":{
             "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
             "maxWidth": "100%" 
@@ -18,7 +18,8 @@
                 "queryField": "Blue Top Retro Camera",
                 "skusFilter": "FIRST_AVAILABLE",
                 "simulationBehavior": "skip",
-                "maxItemsPerPage": 8
+                "maxItemsPerPage": 8,
+                "hideUnavailableItems": true
             }
         }
     }
