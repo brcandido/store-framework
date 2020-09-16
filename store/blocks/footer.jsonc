@@ -1,4 +1,12 @@
 {
+    "footer": {
+        "blocks": ["footer-layout.desktop"]
+      },
+      "footer-layout.desktop": {
+        "children": [
+          "flex-layout.row#footer-1-desktop"
+        ]
+      },
     "flex-layout.row#footer-1-desktop": {
         "children": [
           "flex-layout.col#footer-left-desktop",
@@ -27,7 +35,7 @@
           ]
       },
       "social-networks":{
-        "socialNetworks": ["Facebook","Instagram", "Twitter"],
+        "socialNetworks": ["facebook","instagram", "twitter"],
         "showInColor":true
       }    
 }
