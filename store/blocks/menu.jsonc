@@ -10,11 +10,6 @@
         "orientation": "horizontal"
       }
   },
-  "menu-item#major-appliances":{
-    "blocks":[
-      "vtex.menu@2.x:submenu#major"
-    ]
-  },
   "vtex.menu@2.x:submenu#major":{
     "children":[
         "vtex.menu@2.x:menu#major"
@@ -29,11 +24,6 @@
       "props":{
           "orientation":"vertical"
       }
-  },
-  "menu-item#small-appliances":{
-    "blocks":[
-      "vtex.menu@2.x:submenu#small"
-    ]
   },
   "vtex.menu@2.x:submenu#small":{
     "children":[
@@ -50,11 +40,6 @@
         "orientation":"vertical"
     }
   },
-  "menu-item#electronics":{
-      "blocks":[
-        "vtex.menu@2.x:submenu#electronics"
-      ]
-  },
   "vtex.menu@2.x:submenu#electronics":{
     "children":[
         "vtex.menu@2.x:menu#electronics"
@@ -69,5 +54,45 @@
     "props":{
         "orientation":"vertical"
     }
+  },
+  "menu-item#major-appliances": {
+    "blocks":[
+        "vtex.menu@2.x:submenu#major" 
+    ],
+    "props": {
+    "type": "custom",
+    "highlight": true,
+    "itemProps": {
+      "text": "Major Aplliances"
+    }
   }
+},
+"menu-item#small-appliances": {
+    "blocks":[
+        "vtex.menu@2.x:submenu#small" 
+    ],
+    "props":
+  {
+    "type": "category",
+    "highlight": true,
+    "itemProps": {
+      "categoryId": 2, 
+      "text": "Small Appliances"
+    }
+  }
+},
+"menu-item#electronics": {
+    "blocks":[
+        "vtex.menu@2.x:submenu#electronics" 
+    ],
+    "props":
+  {
+    "type": "category",
+    "highlight": true,
+    "itemProps": {
+      "categoryId": 3, 
+      "text": "Electronics"
+    }
+  }
+}
 }
